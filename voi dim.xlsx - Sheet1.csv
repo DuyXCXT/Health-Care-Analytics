@@ -1,0 +1,342 @@
+,,,,dim date,,,,,,,,,dim hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,2,,4,,12,,,,,8,,57,,211,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Year,,Quarter,,Month,, ,,,Hospital Service Area,,Hospital Country,,Facility Name,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,2017,,1,,1,,,,,Hudson Valley,,Westchester,,Montefiore Mount Vernon Hospital,,,,,,,,,,,dim payment type,,,dim age group,,dim gender,,dim admission,,,dim medical surgical,,dim risk of mortality,,,,dim disease
+,,2018,,2,,2,,,,,New York City,,Manhattan,,Montefiore New Rochelle Hospital,,,,,,,,,,,10,,,5,,2,,6,,,3,,4,,33,,336
+,,,,3,,3,,,,,Western NY,,Sullivan,,Mount Sinai Beth Israel,,,,,,,,,,,Payment Typologogy,,,Age Group,,Gender,,Type of Admission,,,Medical Surgical,,Risk of Mortality,,Disease Group,,Disease Name
+,,,,4,,4,,,,,Central NY,,Erie,,Catskill Regional Medical Center,,,,,,,,,,,Blue Cross/Blue Shield,,,30 to 49,,Female,,Elective,,,Medical,,Minor,,Mental Diseases and Disorders,,Schizophrenia
+,,,,,,5,,,,,Capital/Adirond,,Kings,,Erie County Medical Center,,,,,,,,,,,Department of Corrections,,,50 to 69,,Male,,Emergency,,,Surgical,,Moderate,,Diseases and Disorders of the Circulatory System,,Heart failure
+,,,,,,6,,,,,Finger Lakes,,Onondaga,,Mount Sinai Brooklyn,,,,,,,,,,,Federal/State/Local/VA,,,18 to 29,,,,Newborn,,,Not Applicable,,Major,,Diseases and Disorders of the Kidney and Urinary Tract,,Urinary stones & acquired upper urinary tract obstruction
+,,,,,,7,,,,,Long Island,,Schenectady,,Mount Sinai Hospital,,,,,,,,,,,"Managed Care, Unspecified",,,70 or Older,,,,Urgent,,,,,Extreme,,"Infectious and Parasitic Diseases, Systemic or Unspecified Sites",,"Post-operative, post-traumatic, other device infections"
+,,,,,,8,,,,,Southern Tier,,Bronx,,Mount Sinai West,,,,,,,,,,,Medicaid,,,0 to 17,,,,Trauma,,,,,,,Diseases and Disorders of the Hepatobiliary System and Pancreas,,Septicemia & disseminated infections
+,,,,,,9,,,,,,,Livingston,,Mount Sinai St. Luke's,,,,,,,,,,,Medicare,,,,,,,Not Available,,,,,,,"Endocrine, Nutritional and Metabolic Diseases and Disorders",,Alcoholic liver disease
+,,,,,,10,,,,,,,Orange,,Crouse Hospital,,,,,,,,,,,Miscellaneous/Other,,,,,,,,,,,,,,"Ear, Nose, Mouth, Throat and Craniofacial Diseases and Disorders",,Chest pain
+,,,,,,11,,,,,,,Rockland,,Crouse Hospital - Commonwealth Division,,,,,,,,,,,Private Health Insurance,,,,,,,,,,,,,,Diseases and Disorders of the Respiratory System,,Diabetes
+,,,,,,12,,,,,,,Otsego,,Sunnyview Hospital and Rehabilitation Center,,,,,,,,,,,Self-Pay,,,,,,,,,,,,,,Diseases and Disorders of the Nervous System,,Syncope & collapse
+,,,,,,,,,,,,,Columbia,,Montefiore Medical Center - Henry & Lucy Moses Div,,,,,,,,,,,Unknown,,,,,,,,,,,,,,"Pregnancy, Childbirth and the Puerperium",,Infections of upper respiratory tract
+,dim disposition,,,,,,,,,,,,Delaware,,Montefiore Medical Center-Wakefield Hospital,,,,,,,,,,,,,,,,,,,,,,,,,Diseases and Disorders of the Musculoskeletal System and Conn Tissue,,Other pneumonia
+,20,,,,,,,,,,,,Niagara,,Nicholas H Noyes Memorial Hospital,,,,,,,,,,,,,,,,,,,,,,,,,Diseases and Disorders of the Digestive System,,Seizure
+,Patient Disposition,,,,,,,,,,,,Rensselaer,,Orange Regional Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,Newborns and Other Neonates with Conditions Originating in the Perinatal Period,,Cesarean delivery
+,Home or Self Care,,,,,,,,,,,,Richmond,,Calvary Hospital Inc,,,,,,,,,,,,,,,,,,,,,,,,,"Lymphatic, Hematopoietic, Other Malignancies, Chemotherapy and Radiotherapy",,Acute myocardial infarction
+,Skilled Nursing Home,,,,,,,,,,,,Nassau,,Montefiore Med Center - Jack D Weiler Hosp of A Einstein College Div,,,,,,,,,,,,,,,,,,,,,,,,,Alcohol/Drug Use and Alcohol/Drug Induced Organic Mental Disorders,,Chronic Kidney Disease
+,Court/Law Enforcement,,,,,,,,,,,,Suffolk,,Kingsbrook Jewish Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,"Rehabilitation, Aftercare, Other Factors Influencing Health Status and Other Health Service Contacts",,"Shoulder, upper arm & forearm procedures except joint replacement"
+,Short-term Hospital,,,,,,,,,,,,Queens,,Bon Secours Community Hospital,,,,,,,,,,,,,,,,,,,,,,,,,"Poisonings, Toxic Effects, Other Injuries and Other Complications of Treatment",,Other & unspecified gastrointestinal hemorrhage
+,Expired,,,,,,,,,,,,Steuben,,Good Samaritan Hospital of Suffern,,,,,,,,,,,,,,,,,,,,,,,,,Diseases and Disorders of the Female Reproductive System,,"Neonate birthwt >2499g, normal newborn or neonate w other problem"
+,Home w/ Home Health Services,,,,,,,,,,,,Jefferson,,Mary Imogene Bassett Hospital,,,,,,,,,,,,,,,,,,,,,,,,,"Diseases and Disorders of the Skin, Subcutaneous Tissue and Breast",,Other musculoskeletal system & connective tissue diagnoses
+,Hospice - Medical Facility,,,,,,,,,,,,Madison,,St Anthony Community Hospital,,,,,,,,,,,,,,,,,,,,,,,,,Burns,,Vaginal delivery
+,Another Type Not Listed,,,,,,,,,,,,Allegany,,Bronx-Lebanon Hospital Center - Fulton Division,,,,,,,,,,,,,,,,,,,,,,,,,"Diseases and Disorders of Blood, Blood Forming Organs and Immunological Disorders",,"Fractures & dislocations except femur, pelvis & back"
+,Left Against Medical Advice,,,,,,,,,,,,Chemung,,Columbia Memorial Hospital,,,,,,,,,,,,,,,,,,,,,,,,,Diseases and Disorders of the Male Reproductive System,,Fracture of pelvis or dislocation of hip
+,Inpatient Rehabilitation Facility,,,,,,,,,,,,Herkimer,,NYU Langone Hospitals,,,,,,,,,,,,,,,,,,,,,,,,,Diseases and Disorders of the Eye,,Malignancy of hepatobiliary system & pancreas
+,Medicare Cert Long Term Care Hospital,,,,,,,,,,,,Albany,,Delaware Valley Hospital Inc,,,,,,,,,,,,,,,,,,,,,,,,,Human Immunodeficiency Virus Infections,,Lymphatic & other malignancies & neoplasms of uncertain behavior
+,Cancer Center or Children's Hospital,,,,,,,,,,,,Essex,,Women And Children's Hospital Of Buffalo,,,,,,,,,,,,,,,,,,,,,,,,,Multiple Significant Trauma,,Major depressive disorders & other/unspecified psychoses
+,Hospice - Home,,,,,,,,,,,,Schoharie,,Brooklyn Hospital Center - Downtown Campus,,,,,,,,,,,,,,,,,,,,,,,,,Pre-MDC or Ungroupable,,Procedures for obesity
+,Psychiatric Hospital or Unit of Hosp,,,,,,,,,,,,Ontario,,University Hospital of Brooklyn,,,,,,,,,,,,,,,,,,,,,,,,,DISEASES AND DISORDERS OF THE RESPIRATORY SYSTEM,,Acute Kidney Injury
+,Facility w/ Custodial/Supportive Care,,,,,,,,,,,,Oneida,,NYU Langone Hospital-Brooklyn,,,,,,,,,,,,,,,,,,,,,,,,,"INJURIES, POISONINGS AND TOXIC EFFECTS OF DRUGS",,Cocaine abuse & dependence
+,Medicaid Cert Nursing Facility,,,,,,,,,,,,St Lawrence,,NYU Langone Orthopedic Hospital,,,,,,,,,,,,,,,,,,,,,,,,,"ENDOCRINE, NUTRITIONAL AND METABOLIC DISEASES AND DISORDERS",,Peripheral & other vascular disorders
+,Hosp Basd Medicare Approved Swing Bed,,,,,,,,,,,,Ulster,,Degraff Memorial Hospital,,,,,,,,,,,,,,,,,,,,,,,,,DISEASES AND DISORDERS OF THE DIGESTIVE SYSTEM,,Major respiratory infections & inflammations
+,Federal Health Care Facility,,,,,,,,,,,,Monroe,,Samaritan Hospital,,,,,,,,,,,,,,,,,,,,,,,,,DISEASES AND DISORDERS OF THE MALE REPRODUCTIVE SYSTEM,,Inflammatory bowel disease
+,Critical Access Hospital,,,,,,,,,,,,Clinton,,Staten Island University Hosp-South,,,,,,,,,,,,,,,,,,,,,,,,,"MYELOPROLIFERATIVE DISEASES AND DISORDERS, AND POORLY DIFFERENTIATED NEOPLASM",,Electrolyte disorders except hypovolemia related
+,Admitted from Ambulatory Surgery,,,,,,,,,,,,Franklin,,Nassau University Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,DISEASES AND DISORDERS OF THE NERVOUS SYSTEM,,Gastrointestinal vascular insufficiency
+,,,,,,,,,,,,,Chautauqua,,St Charles Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Peritoneal adhesiolysis
+,,,,,,,,,,,,,Schuyler,,Winifred Masterson Burke Rehabilitation Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate birthwt >2499g w other significant condition
+,,,,,,,,,,,,,Montgomery,,New York Presbyterian Hospital - Westchester Division,,,,,,,,,,,,,,,,,,,,,,,,,,,Intestinal obstruction
+,,,,,,,,,,,,,Genesee,,SJRH - Park Care Pavilion,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate birthwt >2499g w major anomaly
+,,,,,,,,,,,,,Wyoming,,"New York Community Hospital of Brooklyn, Inc",,,,,,,,,,,,,,,,,,,,,,,,,,,Kidney & urinary tract infections
+,,,,,,,,,,,,,Orleans,,New York - Presbyterian Brooklyn Methodist Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,CVA & precerebral occlusion w infarct
+,,,,,,,,,,,,,Wayne,,New York-Presbyterian/Lower Manhattan Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Bronchiolitis & RSV pneumonia
+,,,,,,,,,,,,,Yates,,New York Presbyterian Hospital - New York Weill Cornell Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Respiratory Failure
+,,,,,,,,,,,,,Oswego,,New York Presbyterian Hospital - Columbia Presbyterian Center,,,,,,,,,,,,,,,,,,,,,,,,,,,"Signs, symptoms & other factors influencing health status"
+,,,,,,,,,,,,,Broome,,New York Presbyterian Hospital - Allen Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Disorders of pancreas except malignancy
+,,,,,,,,,,,,,Chenango,,New York - Presbyterian/Queens,,,,,,,,,,,,,,,,,,,,,,,,,,,Cardiac arrhythmia & conduction disorders
+,,,,,,,,,,,,,Lewis,,St James Mercy Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Toxic effects of non-medicinal substances
+,,,,,,,,,,,,,Fulton,,"River Hospital, Inc.",,,,,,,,,,,,,,,,,,,,,,,,,,,Opioid abuse & dependence
+,,,,,,,,,,,,,Dutchess,,Community Memorial Hospital Inc,,,,,,,,,,,,,,,,,,,,,,,,,,,Nontraumatic stupor & coma
+,,,,,,,,,,,,,Putnam,,Catskill Regional Medical Center - G. Hermann Site,,,,,,,,,,,,,,,,,,,,,,,,,,,"Other gastroenteritis, nausa & vomiting"
+,,,,,,,,,,,,,Cattaraugus,,SJRH - St Johns Division,,,,,,,,,,,,,,,,,,,,,,,,,,,"Drug & alcohol abuse or dependence, left against medical advice"
+,,,,,,,,,,,,,Cayuga,,St Joseph's MC-St Vincents Westchester Division,,,,,,,,,,,,,,,,,,,,,,,,,,,Female reproductive system malignancy
+,,,,,,,,,,,,,Cortland,,SJRH - Dobbs Ferry Pavillion,,,,,,,,,,,,,,,,,,,,,,,,,,,Angina pectoris & coronary atherosclerosis
+,,,,,,,,,,,,,Tompkins,,Bronx-Lebanon Hospital Center - Concourse Division,,,,,,,,,,,,,,,,,,,,,,,,,,,Skin ulcers
+,,,,,,,,,,,,,Saratoga,,Bellevue Hospital Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Pulmonary embolism
+,,,,,,,,,,,,,Warren,,Brookhaven Memorial Hospital Medical Center Inc,,,,,,,,,,,,,,,,,,,,,,,,,,,"Neonate bwt 2000-2499g, normal newborn or neonate w other problem"
+,,,,,,,,,,,,,,,Long Island Jewish Forest Hills,,,,,,,,,,,,,,,,,,,,,,,,,,,Other antepartum diagnoses
+,,,,,,,,,,,,,,,Syosset Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Partial thickness burns without skin graft
+,,,,,,,,,,,,,,,Eastern Long Island Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Vaginal delivery w complicating procedures exc sterilization &/or D&C
+,,,,,,,,,,,,,,,Memorial Hosp of Wm F & Gertrude F Jones A/K/A Jones Memorial Hosp,,,,,,,,,,,,,,,,,,,,,,,,,,,"Neonate, transferred < 5 days old, born here"
+,,,,,,,,,,,,,,,Buffalo General Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Chronic obstructive pulmonary disease
+,,,,,,,,,,,,,,,Millard Fillmore Suburban Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Infectious & parasitic diseases including HIV w O.R. procedure
+,,,,,,,,,,,,,,,St. Joseph's Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Major gastrointestinal & peritoneal infections
+,,,,,,,,,,,,,,,Arnot Ogden Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Laparoscopic cholecystectomy
+,,,,,,,,,,,,,,,Little Falls Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Disorders of gallbladder & biliary tract
+,,,,,,,,,,,,,,,Albany Memorial Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Respiratory system diagnosis w ventilator support 96+ hours
+,,,,,,,,,,,,,,,O'Connor Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Abdominal pain
+,,,,,,,,,,,,,,,Moses-Ludington Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Viral illness
+,,,,,,,,,,,,,,,St. Mary's Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,"Other kidney & urinary tract diagnoses, signs & symptoms"
+,,,,,,,,,,,,,,,Cobleskill Regional Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,"Other back & neck disorders, fractures & injuries"
+,,,,,,,,,,,,,,,The Burdett Care Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Other disorders of nervous system
+,,,,,,,,,,,,,,,NewYork-Presbyterian/Hudson Valley Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Other circulatory system diagnoses
+,,,,,,,,,,,,,,,Staten Island University Hosp-North,,,,,,,,,,,,,,,,,,,,,,,,,,,"Malfunction, reaction, complic of orthopedic device or procedure"
+,,,,,,,,,,,,,,,Niagara Falls Memorial Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Other anemia & disorders of blood & blood-forming organs
+,,,,,,,,,,,,,,,Cuba Memorial Hospital Inc,,,,,,,,,,,,,,,,,,,,,,,,,,,Other procedures of blood & blood-forming organs
+,,,,,,,,,,,,,,,Ellis Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Amputation of lower limb except toes
+,,,,,,,,,,,,,,,Samaritan Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Depression except major depressive disorder
+,,,,,,,,,,,,,,,Clifton Springs Hospital and Clinic,,,,,,,,,,,,,,,,,,,,,,,,,,,Uterine & adnexa procedures for non-ovarian & non-adnexal malig
+,,,,,,,,,,,,,,,St Catherine of Siena Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Alcohol & drug dependence w rehab or rehab/detox therapy
+,,,,,,,,,,,,,,,St Elizabeth Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tendon, muscle & other soft tissue procedures"
+,,,,,,,,,,,,,,,Clifton-Fine Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Lower extremity arterial procedures
+,,,,,,,,,,,,,,,The University of Vermont Health Network - Elizabethtown Community Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Hip joint replacement
+,,,,,,,,,,,,,,,Jacobi Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,"Osteomyelitis, septic arthritis & other musculoskeletal infections"
+,,,,,,,,,,,,,,,Ellis Hospital - Bellevue Woman's Care Center Division,,,,,,,,,,,,,,,,,,,,,,,,,,,Mastectomy procedures
+,,,,,,,,,,,,,,,Ellenville Regional Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Hip and femur fracture repair
+,,,,,,,,,,,,,,,Blythedale Childrens Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Cardiac defibrillator & heart assist implant
+,,,,,,,,,,,,,,,North Central Bronx Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Cellulitis & other skin infections
+,,,,,,,,,,,,,,,Coney Island Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate bwt 2000-2499g w resp dist synd/oth maj resp cond
+,,,,,,,,,,,,,,,St. Joseph Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,"Malfunction, reaction, complic of genitourinary device or proc"
+,,,,,,,,,,,,,,,Good Samaritan Hospital Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Degenerative nervous system disorders exc mult sclerosis
+,,,,,,,,,,,,,,,Highland Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Cardiac catheterization for other non-coronary conditions
+,,,,,,,,,,,,,,,Nyack Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Behavioral disorders
+,,,,,,,,,,,,,,,Elmhurst Hospital Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Percutaneous coronary intervention w AMI
+,,,,,,,,,,,,,,,Queens Hospital Center,,,,,,,,,,,,,,,,,,,,,,,,,,,"Hernia procedures except inguinal, femoral & umbilical"
+,,,,,,,,,,,,,,,Maimonides Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,"Malfunction,reaction,complication of cardiac/vasc device or procedure"
+,,,,,,,,,,,,,,,Eastern Niagara Hospital - Lockport Division,,,,,,,,,,,,,,,,,,,,,,,,,,,Tracheostomy w MV 96+ hours w extensive procedure or ECMO
+,,,,,,,,,,,,,,,The University of Vermont Health Network - Champlain Valley Physicians Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Coagulation & platelet disorders
+,,,,,,,,,,,,,,,Wyckoff Heights Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Major chest & respiratory trauma
+,,,,,,,,,,,,,,,Mercy Hospital of Buffalo,,,,,,,,,,,,,,,,,,,,,,,,,,,Knee joint replacement
+,,,,,,,,,,,,,,,Sisters of Charity Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Postpartum & post abortion diagnoses w/o procedure
+,,,,,,,,,,,,,,,The Unity Hospital of Rochester-St Marys Campus,,,,,,,,,,,,,,,,,,,,,,,,,,,Coronary bypass w/o AMI or complex PDX
+,,,,,,,,,,,,,,,The Unity Hospital of Rochester,,,,,,,,,,,,,,,,,,,,,,,,,,,"Other ear, nose, mouth,throat & cranial/facial diagnoses"
+,,,,,,,,,,,,,,,F F Thompson Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,"Post-op, post-trauma, other device infections w O.R. procedure"
+,,,,,,,,,,,,,,,Corning Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Rehabilitation
+,,,,,,,,,,,,,,,St Josephs Hospital Health Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Asthma
+,,,,,,,,,,,,,,,Henry J. Carter Specialty Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Major respiratory & chest procedures
+,,,,,,,,,,,,,,,St Peters Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Major small & large bowel procedures
+,,,,,,,,,,,,,,,Alice Hyde Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Kidney & urinary tract procedures for nonmalignancy
+,,,,,,,,,,,,,,,Lincoln Medical & Mental Health Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Cervical spinal fusion & other back/neck proc exc disc excis/decomp
+,,,,,,,,,,,,,,,Kings County Hospital Center,,,,,,,,,,,,,,,,,,,,,,,,,,,"Malnutrition, failure to thrive & other nutritional disorders"
+,,,,,,,,,,,,,,,Westfield Memorial Hospital Inc,,,,,,,,,,,,,,,,,,,,,,,,,,,Other Chemotherapy
+,,,,,,,,,,,,,,,Roswell Park Cancer Institute,,,,,,,,,,,,,,,,,,,,,,,,,,,"Other hepatobiliary, pancreas & abdominal procedures"
+,,,,,,,,,,,,,,,Kenmore Mercy Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Major hematologic/immunologic diag exc sickle cell crisis & coagul
+,,,,,,,,,,,,,,,Bertrand Chaffee Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Cardiac structural & valvular disorders
+,,,,,,,,,,,,,,,Sisters of Charity Hospital - St Joseph Campus,,,,,,,,,,,,,,,,,,,,,,,,,,,"Respiratory signs, symptoms & minor diagnoses"
+,,,,,,,,,,,,,,,Mount St Marys Hospital and Health Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Major abdominal vascular procedures
+,,,,,,,,,,,,,,,St. Peter's Addiction Recovery Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Other endocrine disorders
+,,,,,,,,,,,,,,,Schuyler Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Male reproductive system diagnoses except malignancy
+,,,,,,,,,,,,,,,Carthage Area Hospital Inc,,,,,,,,,,,,,,,,,,,,,,,,,,,Intervertebral disc excision & decompression
+,,,,,,,,,,,,,,,Aurelia Osborn Fox Memorial Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Moderately extensive procedure unrelated to principal diagnosis
+,,,,,,,,,,,,,,,HealthAlliance Hospital Broadway Campus,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate bwt 2000-2499g w major anomaly
+,,,,,,,,,,,,,,,St Joseph's Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,"Other kidney, urinary tract & related procedures"
+,,,,,,,,,,,,,,,Woodhull Medical & Mental Health Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Other digestive system & abdominal procedures
+,,,,,,,,,,,,,,,Lenox Hill Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,"Major stomach, esophageal & duodenal procedures"
+,,,,,,,,,,,,,,,University Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate bwt 1500-1999g w or w/o other significant condition
+,,,,,,,,,,,,,,,Albany Medical Center Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Interstitial & alveolar lung diseases
+,,,,,,,,,,,,,,,St. Mary's Healthcare,,,,,,,,,,,,,,,,,,,,,,,,,,,Nervous system malignancy
+,,,,,,,,,,,,,,,SBH Health System,,,,,,,,,,,,,,,,,,,,,,,,,,,Other peripheral vascular procedures
+,,,,,,,,,,,,,,,Harlem Hospital Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Sickle cell anemia crisis
+,,,,,,,,,,,,,,,Metropolitan Hospital Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Hepatic coma & other major acute liver disorders
+,,,,,,,,,,,,,,,Glen Cove Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Other disorders of the liver
+,,,,,,,,,,,,,,,North Shore University Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Eye procedures except orbit
+,,,,,,,,,,,,,,,Plainview Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Fever
+,,,,,,,,,,,,,,,Southside Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Other complications of treatment
+,,,,,,,,,,,,,,,Peconic Bay Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Other digestive system diagnoses
+,,,,,,,,,,,,,,,UPMC Chautauqua at WCA,,,,,,,,,,,,,,,,,,,,,,,,,,,"Contusion, open wound & other trauma to skin & subcutaneous tissue"
+,,,,,,,,,,,,,,,UPMC Chautauqua at WCA,,,,,,,,,,,,,,,,,,,,,,,,,,,Transient ischemia
+,,,,,,,,,,,,,,,United Memorial Medical Center North Street Campus,,,,,,,,,,,,,,,,,,,,,,,,,,,Spinal disorders & injuries
+,,,,,,,,,,,,,,,Wyoming County Community Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,HIV w multiple major HIV related conditions
+,,,,,,,,,,,,,,,United Memorial Medical Center Bank Street Campus,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate birthwt 750-999g w/o major procedure
+,,,,,,,,,,,,,,,Medina Memorial Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Tracheostomy w MV 96+ hours w/o extensive procedure
+,,,,,,,,,,,,,,,Rochester General Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,"Peripheral, cranial & autonomic nerve disorders"
+,,,,,,,,,,,,,,,Strong Memorial Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Transurethral prostatectomy
+,,,,,,,,,,,,,,,Newark-Wayne Community Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Head trauma w coma >1 hr or hemorrhage
+,,,,,,,,,,,,,,,Ira Davenport Memorial Hospital Inc,,,,,,,,,,,,,,,,,,,,,,,,,,,Pituitary & adrenal procedures
+,,,,,,,,,,,,,,,Soldiers and Sailors Memorial Hospital of Yates County Inc,,,,,,,,,,,,,,,,,,,,,,,,,,,Other respiratory & chest procedures
+,,,,,,,,,,,,,,,Oswego Hospital - Alvin L Krakau Comm Mtl Health Center Div,,,,,,,,,,,,,,,,,,,,,,,,,,,Hypovolemia & related electrolyte disorders
+,,,,,,,,,,,,,,,United Health Services Hospitals Inc. - Binghamton General Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Migraine & other headaches
+,,,,,,,,,,,,,,,United Health Services Hospitals Inc. - Wilson Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Diverticulitis & diverticulosis
+,,,,,,,,,,,,,,,Chenango Memorial Hospital Inc,,,,,,,,,,,,,,,,,,,,,,,,,,,Testes & scrotal procedures
+,,,,,,,,,,,,,,,Lewis County General Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Nonspecific CVA & precerebral occlusion w/o infarct
+,,,,,,,,,,,,,,,Oneida Healthcare,,,,,,,,,,,,,,,,,,,,,,,,,,,Acute anxiety & delirium states
+,,,,,,,,,,,,,,,Gouverneur Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Poisoning of medicinal agents
+,,,,,,,,,,,,,,,Nathan Littauer Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Hypertension
+,,,,,,,,,,,,,,,St. Mary's Healthcare - Amsterdam Memorial Campus,,,,,,,,,,,,,,,,,,,,,,,,,,,Craniotomy for trauma
+,,,,,,,,,,,,,,,Northern Dutchess Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Other mental health disorders
+,,,,,,,,,,,,,,,Putnam Hospital Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Connective tissue disorders
+,,,,,,,,,,,,,,,HealthAlliance Hospital Mary's Avenue Campus,,,,,,,,,,,,,,,,,,,,,,,,,,,HIV w major HIV related condition
+,,,,,,,,,,,,,,,Brookdale Hospital Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Intracranial hemorrhage
+,,,,,,,,,,,,,,,Memorial Sloan Kettering Memorial Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,HIV w one signif HIV cond or w/o signif related cond
+,,,,,,,,,,,,,,,RUMC-Bayley Seton,,,,,,,,,,,,,,,,,,,,,,,,,,,"Lymphoma, myeloma & non-acute leukemia"
+,,,,,,,,,,,,,,,Richmond University Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Uterine & adnexa procedures for leiomyoma
+,,,,,,,,,,,,,,,NYU Winthrop Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Vertigo & other labyrinth disorders
+,,,,,,,,,,,,,,,Mount Sinai Hospital - Mount Sinai Hospital of Queens,,,,,,,,,,,,,,,,,,,,,,,,,,,Menstrual & other female reproductive system disorders
+,,,,,,,,,,,,,,,Olean General Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Percutaneous coronary intervention w/o AMI
+,,,,,,,,,,,,,,,St Francis Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Organic mental health disturbances
+,,,,,,,,,,,,,,,Geneva General Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Bipolar disorders
+,,,,,,,,,,,,,,,Auburn Community Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Digestive malignancy
+,,,,,,,,,,,,,,,Our Lady of Lourdes Memorial Hospital Inc,,,,,,,,,,,,,,,,,,,,,,,,,,,Peptic ulcer & gastritis
+,,,,,,,,,,,,,,,Cortland Regional Medical Center Inc,,,,,,,,,,,,,,,,,,,,,,,,,,,"Other stomach, esophageal & duodenal procedures"
+,,,,,,,,,,,,,,,"Rome Memorial Hospital, Inc",,,,,,,,,,,,,,,,,,,,,,,,,,,"Other skin, subcutaneous tissue & related procedures"
+,,,,,,,,,,,,,,,University Hospital SUNY Health Science Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Female reproductive system reconstructive procedures
+,,,,,,,,,,,,,,,Claxton-Hepburn Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Dorsal & lumbar fusion proc except for curvature of back
+,,,,,,,,,,,,,,,Vassar Brothers Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Alcohol abuse & dependence
+,,,,,,,,,,,,,,,Faxton-St Lukes Healthcare St Lukes Division,,,,,,,,,,,,,,,,,,,,,,,,,,,Other esophageal disorders
+,,,,,,,,,,,,,,,UPSTATE University Hospital at Community General,,,,,,,,,,,,,,,,,,,,,,,,,,,Appendectomy
+,,,,,,,,,,,,,,,St Luke's Cornwall Hospital/Newburgh,,,,,,,,,,,,,,,,,,,,,,,,,,,Musculoskeletal & other procedures for multiple significant trauma
+,,,,,,,,,,,,,,,Westchester Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Other nervous system & related procedures
+,,,,,,,,,,,,,,,Oswego Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Foot & toe procedures
+,,,,,,,,,,,,,,,Cayuga Medical Center at Ithaca,,,,,,,,,,,,,,,,,,,,,,,,,,,Urethral & transurethral procedures
+,,,,,,,,,,,,,,,Margaretville Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,"Inguinal, femoral & umbilical hernia procedures"
+,,,,,,,,,,,,,,,Adirondack Medical Center-Saranac Lake Site,,,,,,,,,,,,,,,,,,,,,,,,,,,Uterine & adnexa procedures for non-malignancy except leiomyoma
+,,,,,,,,,,,,,,,Mid-Hudson Valley Division of Westchester Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Cholecystectomy except laparoscopic
+,,,,,,,,,,,,,,,Interfaith Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Respiratory malignancy
+,,,,,,,,,,,,,,,White Plains Hospital Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Vaginal delivery w sterilization &/or D&C
+,,,,,,,,,,,,,,,Flushing Hospital Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,"Other respiratory diagnoses except signs, symptoms & minor diagnoses"
+,,,,,,,,,,,,,,,New York-Presbyterian/Lawrence Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Knee & lower leg procedures except foot
+,,,,,,,,,,,,,,,Phelps Memorial Hospital Assn,,,,,,,,,,,,,,,,,,,,,,,,,,,Eye disorders except major infections
+,,,,,,,,,,,,,,,Long Island Jewish Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Other circulatory system procedures
+,,,,,,,,,,,,,,,St Johns Episcopal Hospital So Shore,,,,,,,,,,,,,,,,,,,,,,,,,,,Inborn errors of metabolism
+,,,,,,,,,,,,,,,Cohen Children's Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Multiple sclerosis & other demyelinating diseases
+,,,,,,,,,,,,,,,Mercy Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,"Other skin, subcutaneous tissue & breast disorders"
+,,,,,,,,,,,,,,,John T Mather Memorial Hospital of Port Jefferson New York Inc,,,,,,,,,,,,,,,,,,,,,,,,,,,Major O.R. procedures for lymphatic/hematopoietic/other neoplasms
+,,,,,,,,,,,,,,,Huntington Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Tonsil & adenoid procedures
+,,,,,,,,,,,,,,,University Hospital - Stony Brook Southampton Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Major cranial/facial bone procedures
+,,,,,,,,,,,,,,,Northern Westchester Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Nonextensive procedure unrelated to principal diagnosis
+,,,,,,,,,,,,,,,Long Island Jewish Valley Stream,,,,,,,,,,,,,,,,,,,,,,,,,,,"Other ear, nose, mouth & throat procedures"
+,,,,,,,,,,,,,,,Hospital for Special Surgery,,,,,,,,,,,,,,,,,,,,,,,,,,,Major larynx & trachea procedures
+,,,,,,,,,,,,,,,Saratoga Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,"Skin graft, except hand, for musculoskeletal & connective tissue diagnoses"
+,,,,,,,,,,,,,,,South Nassau Communities Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,"Thyroid, parathyroid & thyroglossal procedures"
+,,,,,,,,,,,,,,,Jamaica Hospital Medical Center,,,,,,,,,,,,,,,,,,,,,,,,,,,Major biliary tract procedures
+,,,,,,,,,,,,,,,Canton-Potsdam Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Craniotomy except for trauma
+,,,,,,,,,,,,,,,New York Eye and Ear Infirmary of Mount Sinai,,,,,,,,,,,,,,,,,,,,,,,,,,,Extensive procedure unrelated to principal diagnosis
+,,,,,,,,,,,,,,,Albany Medical Center - South Clinical Campus,,,,,,,,,,,,,,,,,,,,,,,,,,,"Major pancreas, liver & shunt procedures"
+,,,,,,,,,,,,,,,Helen Hayes Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Acute major eye infections
+,,,,,,,,,,,,,,,Brooks Memorial Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Cardiac valve procedures w/o AMI or complex PDX
+,,,,,,,,,,,,,,,TLC Health Network Lake Shore Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Cardiac pacemaker & defibrillator device replacement
+,,,,,,,,,,,,,,,Massena Memorial Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Other major head & neck procedures
+,,,,,,,,,,,,,,,Glens Falls Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Other significant hip and femur surgery
+,,,,,,,,,,,,,,,Monroe Community Hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,Facial bone procedures except major cranial/facial bone procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cystic fibrosis - pulmonary disease
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kidney transplant
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Other small & large bowel procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Non-bacterial infections of nervous system exc viral meningitis
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Chemotherapy for acute leukemia
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O.R. procedure for other complications of treatment
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cardiac catheterization for coronary artery disease
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Musculoskeletal malignancy & pathol fracture d/t muscskel malig
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Other musculoskeletal system & connective tissue procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Anal procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HIV w multiple significant HIV related conditions
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Malfunction, reaction & complication of GI device or procedure"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Perm cardiac pacemaker implant w/o AMI, heart failure or shock"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Major esophageal disorders
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Extracranial vascular procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cleft lip & palate repair
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dilation & curettage for non-obstetric diagnoses
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dental & oral diseases & injuries
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Nephritis & nephrosis
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BPD & oth chronic respiratory diseases arising in perinatal period
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Other O.R. procedures for lymphatic/hematopoietic/other neoplasms
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Other infectious & parasitic diseases
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ventricular shunt procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Malignant breast disorders
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Malignancy, male reproductive system"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Other aftercare & convalescence
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kidney & urinary tract malignancy
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Major skin disorders
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,False labor
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kidney & urinary tract procedures for malignancy
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Other cardiothoracic & thoracic vascular procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cardiac valve procedures w AMI or complex PDX
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Major male pelvic procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Acute leukemia
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Breast procedures except mastectomy
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate bwt 1500-2499g w major procedure
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate birthwt 1500-1999g w major anomaly
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate bwt 2000-2499g w other significant condition
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate birthwt >2499g w congenital/perinatal infection
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Female reproductive system infections
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"D&C, aspiration curettage or hysterotomy for obstetric diagnoses"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Adjustment disorders & neuroses except depressive diagnoses
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Concussion, closed skull Fx nos,uncomplicated intracranial injury, coma < 1 hr or no coma"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Skin graft for skin & subcutaneous tissue diagnoses
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Allergic reactions
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mental illness diagnosis w O.R. procedure
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bacterial & tuberculous infections of nervous system
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Neonate, birthwt >2499g w resp dist synd/oth maj resp cond"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Other procedures for endocrine, nutritional & metabolic disorders"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Other drug abuse & dependence
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Fracture of femur
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Disorders of personality & impulse control
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Hand & wrist procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bone marrow transplant
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Heart &/or lung transplant
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Liver transplant &/or intestinal transplant
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pelvic evisceration, radical hysterectomy & other radical GYN procs"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Other male reproductive system & related procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Procedure w diag of rehab, aftercare or oth contact w health service"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sinus & mastoid procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Shoulder & elbow joint replacement
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Other bladder procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Coronary bypass w AMI or complex PDX
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Multiple significant trauma w/o O.R. procedure
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cardiac arrest and shock
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Radiotherapy
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate bwt 2000-2499g w congenital/perinatal infection
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Spinal procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Other O.R. proc for obstetric diagnoses except delivery diagnoses
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Preterm labor
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate birthwt 500-749g w/o major procedure
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Renal dialysis access device procedure only
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Burns with skin graft except extensive 3rd degree burns
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate bwt 1250-1499g w or w/o other significant condition
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Major bladder procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate bwt 1500-1999g w resp dist synd/oth maj resp cond
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Ear, nose, mouth, throat, cranial/facial malignancies"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Acute & subacute endocarditis
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Other injury, poisoning & toxic effect diagnoses"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Other female reproductive system & related procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate bwt 1250-1499g w resp dist synd/oth maj resp or maj anom
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ungroupable
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cardiomyopathy
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Penis procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dorsal & lumbar fusion proc for curvature of back
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate bwt 1000-1249g w resp dist synd/oth maj resp or maj anom
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cardiac pacemaker & defibrillator revision except device replacement
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate bwt <500g or GA <24 weeks
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Uterine & adnexa procedures for ovarian & adnexal malignancy
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate bwt <1500g w major procedure
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate birthwt >2499g w other major procedure
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Brain contusion/laceration & complicated skull Fx, coma < 1 hr or no coma"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate birthwt >2499g w major cardiovascular procedure
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Splenectomy
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Extensive abdominal/thoracic procedures for mult significant trauma
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Eating disorders
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Permanent cardiac pacemaker implant w AMI, heart failure or shock"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Viral meningitis
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Major cardiothoracic repair of heart anomaly
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate w ECMO
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pancreas transplant
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Orbital procedures
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate birthwt 1500-1999g w congenital/perinatal infection
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Craniotomy for multiple significant trauma
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Principal diagnosis invalid as discharge diagnosis
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonatal aftercare
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neonate birthwt 1000-1249g w or w/o other significant condition
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Extensive 3rd degree burns w skin graft
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Extensive 3rd degree or full thickness burns w/o skin graft
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Neonate, transferred <5 days old, not born here"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ACUTE BRONCHITIS AND RELATED SYMPTOMS
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MODERATELY EXTENSIVE OR PROCEDURES FOR OTHER COMPLICATIONS OF TREATMENT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HEMORRHAGE OR HEMATOMA DUE TO COMPLICATION
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NON-HYPOVOLEMIC SODIUM DISORDERS
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APPENDECTOMY WITHOUT COMPLEX PRINCIPAL DIAGNOSIS
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MAJOR SMALL BOWEL PROCEDURES
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EXTRACORPOREAL MEMBRANE OXYGENATION (ECMO)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MAJOR LARGE BOWEL PROCEDURES
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EXTENSIVE OR PROCEDURES FOR OTHER COMPLICATIONS OF TREATMENT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OVERDOSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APPENDECTOMY WITH COMPLEX PRINCIPAL DIAGNOSIS
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,THYROID DISORDERS
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AUTOLOGOUS BONE MARROW TRANSPLANT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALLOGENEIC BONE MARROW TRANSPLANT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ANOXIC & OTHER SEVERE BRAIN DAMAGE
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NON-EXTENSIVE OR PROCEDURES FOR OTHER COMPLICATIONS OF TREATMENT
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,GASTRIC FUNDOPLICATION
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HEAD TRAUMA WITH DEEP COMA
